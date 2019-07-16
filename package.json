@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/herrstucki/responsive-loader.git"
+    "url": "git+https://github.com/endiliey/responsive-loader.git"
   },
   "keywords": [
     "webpack",
@@ -31,9 +31,9 @@
   "author": "Jeremy Stucki <jeremy@interactivethings.com>",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/herrstucki/responsive-loader/issues"
+    "url": "https://github.com/endiliey/responsive-loader/issues"
   },
-  "homepage": "https://github.com/herrstucki/responsive-loader",
+  "homepage": "https://github.com/endiliey/responsive-loader",
   "dependencies": {
     "loader-utils": "^1.2.3"
   },
