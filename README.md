@@ -1,6 +1,6 @@
 # responsive-loader
 
-[![Build Status](https://travis-ci.org/herrstucki/responsive-loader.svg?branch=master)](https://travis-ci.org/herrstucki/responsive-loader)
+[![Build Status](https://travis-ci.com/endiliey/responsive-loader.svg?branch=master)](https://travis-ci.com/endiliey/responsive-loader)
 
 A webpack loader for responsive images. Creates multiple images from one source image, and returns a `srcset`. For more information on how to use `srcset`, read [Responsive Images: If you’re just changing resolutions, use srcset.](https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/). Browser support is [pretty good](http://caniuse.com/#search=srcset).
 
