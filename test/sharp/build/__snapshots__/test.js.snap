@@ -5,12 +5,12 @@ Object {
   "images": Array [
     Object {
       "height": 100,
-      "path": "foobar/c9fec88e524931764f00bab4a70790b2-100.jpg",
+      "path": "foobar/cat-1000.100.jpg",
       "width": 100,
     },
   ],
-  "src": "foobar/c9fec88e524931764f00bab4a70790b2-100.jpg",
-  "srcSet": "foobar/c9fec88e524931764f00bab4a70790b2-100.jpg",
+  "src": "foobar/cat-1000.100.jpg",
+  "srcSet": "foobar/cat-1000.100.jpg",
   "toString": [Function],
 }
 `;
@@ -21,13 +21,13 @@ Object {
   "images": Array [
     Object {
       "height": 225,
-      "path": "foobar/9e00628ae969242663a9064ea5ec2501-250.jpg",
+      "path": "foobar/cat-1000.250.jpg",
       "width": 250,
     },
   ],
   "placeholder": undefined,
-  "src": "foobar/9e00628ae969242663a9064ea5ec2501-250.jpg",
-  "srcSet": "foobar/9e00628ae969242663a9064ea5ec2501-250.jpg 250w",
+  "src": "foobar/cat-1000.250.jpg",
+  "srcSet": "foobar/cat-1000.250.jpg 250w",
   "toString": [Function],
   "width": 250,
 }
@@ -39,18 +39,18 @@ Object {
   "images": Array [
     Object {
       "height": 450,
-      "path": "foobar/82647e9799aa0020dacb0ebeab4886fb-500.jpg",
+      "path": "foobar/cat-1000.500.jpg",
       "width": 500,
     },
     Object {
       "height": 900,
-      "path": "foobar/32eef0247bb077de607da3d1f021d138-1000.jpg",
+      "path": "foobar/cat-1000.1000.jpg",
       "width": 1000,
     },
   ],
   "placeholder": undefined,
-  "src": "foobar/82647e9799aa0020dacb0ebeab4886fb-500.jpg",
-  "srcSet": "foobar/82647e9799aa0020dacb0ebeab4886fb-500.jpg 500w,foobar/32eef0247bb077de607da3d1f021d138-1000.jpg 1000w",
+  "src": "foobar/cat-1000.500.jpg",
+  "srcSet": "foobar/cat-1000.500.jpg 500w,foobar/cat-1000.1000.jpg 1000w",
   "toString": [Function],
   "width": 500,
 }
@@ -62,13 +62,13 @@ Object {
   "images": Array [
     Object {
       "height": 450,
-      "path": "foobar/82647e9799aa0020dacb0ebeab4886fb-500.jpg",
+      "path": "foobar/cat-1000.500.jpg",
       "width": 500,
     },
   ],
   "placeholder": undefined,
-  "src": "foobar/82647e9799aa0020dacb0ebeab4886fb-500.jpg",
-  "srcSet": "foobar/82647e9799aa0020dacb0ebeab4886fb-500.jpg 500w",
+  "src": "foobar/cat-1000.500.jpg",
+  "srcSet": "foobar/cat-1000.500.jpg 500w",
   "toString": [Function],
   "width": 500,
 }
@@ -80,23 +80,23 @@ Object {
   "images": Array [
     Object {
       "height": 450,
-      "path": "foobar/img/82647e9799aa0020dacb0ebeab4886fb-500.jpg",
+      "path": "foobar/img/cat-1000.500.jpg",
       "width": 500,
     },
     Object {
       "height": 675,
-      "path": "foobar/img/337b4d5469ae39ad6c7f2f92ac968020-750.jpg",
+      "path": "foobar/img/cat-1000.750.jpg",
       "width": 750,
     },
     Object {
       "height": 900,
-      "path": "foobar/img/32eef0247bb077de607da3d1f021d138-1000.jpg",
+      "path": "foobar/img/cat-1000.1000.jpg",
       "width": 1000,
     },
   ],
   "placeholder": undefined,
-  "src": "foobar/img/82647e9799aa0020dacb0ebeab4886fb-500.jpg",
-  "srcSet": "foobar/img/82647e9799aa0020dacb0ebeab4886fb-500.jpg 500w,foobar/img/337b4d5469ae39ad6c7f2f92ac968020-750.jpg 750w,foobar/img/32eef0247bb077de607da3d1f021d138-1000.jpg 1000w",
+  "src": "foobar/img/cat-1000.500.jpg",
+  "srcSet": "foobar/img/cat-1000.500.jpg 500w,foobar/img/cat-1000.750.jpg 750w,foobar/img/cat-1000.1000.jpg 1000w",
   "toString": [Function],
   "width": 500,
 }
@@ -136,13 +136,13 @@ Object {
   "images": Array [
     Object {
       "height": 90,
-      "path": "foobar/b60eaefc0a3a338c643fe1ca6f3beb07-100.jpg",
+      "path": "foobar/cat-1000.100.jpg",
       "width": 100,
     },
   ],
   "placeholder": undefined,
-  "src": "foobar/b60eaefc0a3a338c643fe1ca6f3beb07-100.jpg",
-  "srcSet": "foobar/b60eaefc0a3a338c643fe1ca6f3beb07-100.jpg 100w",
+  "src": "foobar/cat-1000.100.jpg",
+  "srcSet": "foobar/cat-1000.100.jpg 100w",
   "toString": [Function],
   "width": 100,
 }
@@ -154,18 +154,18 @@ Object {
   "images": Array [
     Object {
       "height": 90,
-      "path": "foobar/b60eaefc0a3a338c643fe1ca6f3beb07-100.jpg",
+      "path": "foobar/cat-1000.100.jpg",
       "width": 100,
     },
     Object {
       "height": 180,
-      "path": "foobar/5532385611232faf6476905854d33991-200.jpg",
+      "path": "foobar/cat-1000.200.jpg",
       "width": 200,
     },
   ],
   "placeholder": undefined,
-  "src": "foobar/b60eaefc0a3a338c643fe1ca6f3beb07-100.jpg",
-  "srcSet": "foobar/b60eaefc0a3a338c643fe1ca6f3beb07-100.jpg 100w,foobar/5532385611232faf6476905854d33991-200.jpg 200w",
+  "src": "foobar/cat-1000.100.jpg",
+  "srcSet": "foobar/cat-1000.100.jpg 100w,foobar/cat-1000.200.jpg 200w",
   "toString": [Function],
   "width": 100,
 }
@@ -177,18 +177,18 @@ Object {
   "images": Array [
     Object {
       "height": 580,
-      "path": "foobar/d42dd47dda0e1fb5e29a49ed75374bf6-500.png",
+      "path": "foobar/cat-transparent.500.png",
       "width": 500,
     },
     Object {
       "height": 595,
-      "path": "foobar/a01387960c0fdae534983959778dfb75-513.png",
+      "path": "foobar/cat-transparent.513.png",
       "width": 513,
     },
   ],
   "placeholder": undefined,
-  "src": "foobar/d42dd47dda0e1fb5e29a49ed75374bf6-500.png",
-  "srcSet": "foobar/d42dd47dda0e1fb5e29a49ed75374bf6-500.png 500w,foobar/a01387960c0fdae534983959778dfb75-513.png 513w",
+  "src": "foobar/cat-transparent.500.png",
+  "srcSet": "foobar/cat-transparent.500.png 500w,foobar/cat-transparent.513.png 513w",
   "toString": [Function],
   "width": 500,
 }
@@ -200,18 +200,18 @@ Object {
   "images": Array [
     Object {
       "height": 580,
-      "path": "foobar/85387501a9e125398851987bd78c027f-500.jpg",
+      "path": "foobar/cat-transparent.500.jpg",
       "width": 500,
     },
     Object {
       "height": 595,
-      "path": "foobar/149a3d69bc16ee3b406a4958420dc6f8-513.jpg",
+      "path": "foobar/cat-transparent.513.jpg",
       "width": 513,
     },
   ],
   "placeholder": undefined,
-  "src": "foobar/85387501a9e125398851987bd78c027f-500.jpg",
-  "srcSet": "foobar/85387501a9e125398851987bd78c027f-500.jpg 500w,foobar/149a3d69bc16ee3b406a4958420dc6f8-513.jpg 513w",
+  "src": "foobar/cat-transparent.500.jpg",
+  "srcSet": "foobar/cat-transparent.500.jpg 500w,foobar/cat-transparent.513.jpg 513w",
   "toString": [Function],
   "width": 500,
 }
@@ -223,23 +223,23 @@ Object {
   "images": Array [
     Object {
       "height": 450,
-      "path": "public/82647e9799aa0020dacb0ebeab4886fb-500.jpg",
+      "path": "public/cat-1000.500.jpg",
       "width": 500,
     },
     Object {
       "height": 675,
-      "path": "public/337b4d5469ae39ad6c7f2f92ac968020-750.jpg",
+      "path": "public/cat-1000.750.jpg",
       "width": 750,
     },
     Object {
       "height": 900,
-      "path": "public/32eef0247bb077de607da3d1f021d138-1000.jpg",
+      "path": "public/cat-1000.1000.jpg",
       "width": 1000,
     },
   ],
   "placeholder": undefined,
-  "src": "public/82647e9799aa0020dacb0ebeab4886fb-500.jpg",
-  "srcSet": "public/82647e9799aa0020dacb0ebeab4886fb-500.jpg 500w,public/337b4d5469ae39ad6c7f2f92ac968020-750.jpg 750w,public/32eef0247bb077de607da3d1f021d138-1000.jpg 1000w",
+  "src": "public/cat-1000.500.jpg",
+  "srcSet": "public/cat-1000.500.jpg 500w,public/cat-1000.750.jpg 750w,public/cat-1000.1000.jpg 1000w",
   "toString": [Function],
   "width": 500,
 }
@@ -251,13 +251,13 @@ Object {
   "images": Array [
     Object {
       "height": 450,
-      "path": "foobar/82647e9799aa0020dacb0ebeab4886fb-500.jpg",
+      "path": "foobar/cat-1000.500.jpg",
       "width": 500,
     },
   ],
   "placeholder": undefined,
-  "src": "foobar/82647e9799aa0020dacb0ebeab4886fb-500.jpg",
-  "srcSet": "foobar/82647e9799aa0020dacb0ebeab4886fb-500.jpg 500w",
+  "src": "foobar/cat-1000.500.jpg",
+  "srcSet": "foobar/cat-1000.500.jpg 500w",
   "toString": [Function],
   "width": 500,
 }
@@ -269,23 +269,23 @@ Object {
   "images": Array [
     Object {
       "height": 540,
-      "path": "foobar/29efa1c2fc95cd93fb507d0bde7c99ae-600.jpg",
+      "path": "foobar/cat-1000.600.jpg",
       "width": 600,
     },
     Object {
       "height": 630,
-      "path": "foobar/7780a273cb4e9ae5c612aecf0d1e1b17-700.jpg",
+      "path": "foobar/cat-1000.700.jpg",
       "width": 700,
     },
     Object {
       "height": 720,
-      "path": "foobar/1bff4a14ff235f4a8f1921979007a4bb-800.jpg",
+      "path": "foobar/cat-1000.800.jpg",
       "width": 800,
     },
   ],
   "placeholder": undefined,
-  "src": "foobar/29efa1c2fc95cd93fb507d0bde7c99ae-600.jpg",
-  "srcSet": "foobar/29efa1c2fc95cd93fb507d0bde7c99ae-600.jpg 600w,foobar/7780a273cb4e9ae5c612aecf0d1e1b17-700.jpg 700w,foobar/1bff4a14ff235f4a8f1921979007a4bb-800.jpg 800w",
+  "src": "foobar/cat-1000.600.jpg",
+  "srcSet": "foobar/cat-1000.600.jpg 600w,foobar/cat-1000.700.jpg 700w,foobar/cat-1000.800.jpg 800w",
   "toString": [Function],
   "width": 600,
 }
@@ -297,28 +297,28 @@ Object {
   "images": Array [
     Object {
       "height": 90,
-      "path": "foobar/b60eaefc0a3a338c643fe1ca6f3beb07-100.jpg",
+      "path": "foobar/cat-1000.100.jpg",
       "width": 100,
     },
     Object {
       "height": 150,
-      "path": "foobar/05973b43777a1c8f8447637ac0addbe0-167.jpg",
+      "path": "foobar/cat-1000.167.jpg",
       "width": 167,
     },
     Object {
       "height": 211,
-      "path": "foobar/2d28c8117e5b52864f3a6d137e56bb95-234.jpg",
+      "path": "foobar/cat-1000.234.jpg",
       "width": 234,
     },
     Object {
       "height": 270,
-      "path": "foobar/b639049e47b4d731c26611c9be856489-300.jpg",
+      "path": "foobar/cat-1000.300.jpg",
       "width": 300,
     },
   ],
   "placeholder": undefined,
-  "src": "foobar/b60eaefc0a3a338c643fe1ca6f3beb07-100.jpg",
-  "srcSet": "foobar/b60eaefc0a3a338c643fe1ca6f3beb07-100.jpg 100w,foobar/05973b43777a1c8f8447637ac0addbe0-167.jpg 167w,foobar/2d28c8117e5b52864f3a6d137e56bb95-234.jpg 234w,foobar/b639049e47b4d731c26611c9be856489-300.jpg 300w",
+  "src": "foobar/cat-1000.100.jpg",
+  "srcSet": "foobar/cat-1000.100.jpg 100w,foobar/cat-1000.167.jpg 167w,foobar/cat-1000.234.jpg 234w,foobar/cat-1000.300.jpg 300w",
   "toString": [Function],
   "width": 100,
 }
@@ -330,28 +330,28 @@ Object {
   "images": Array [
     Object {
       "height": 450,
-      "path": "foobar/82647e9799aa0020dacb0ebeab4886fb-500.jpg",
+      "path": "foobar/cat-1000.500.jpg",
       "width": 500,
     },
     Object {
       "height": 600,
-      "path": "foobar/fa11cdf665714d02693337563a0729f9-667.jpg",
+      "path": "foobar/cat-1000.667.jpg",
       "width": 667,
     },
     Object {
       "height": 751,
-      "path": "foobar/a85a6f3b6c02b9f8b2c3c0fbee6f6641-834.jpg",
+      "path": "foobar/cat-1000.834.jpg",
       "width": 834,
     },
     Object {
       "height": 900,
-      "path": "foobar/32eef0247bb077de607da3d1f021d138-1000.jpg",
+      "path": "foobar/cat-1000.1000.jpg",
       "width": 1000,
     },
   ],
   "placeholder": undefined,
-  "src": "foobar/82647e9799aa0020dacb0ebeab4886fb-500.jpg",
-  "srcSet": "foobar/82647e9799aa0020dacb0ebeab4886fb-500.jpg 500w,foobar/fa11cdf665714d02693337563a0729f9-667.jpg 667w,foobar/a85a6f3b6c02b9f8b2c3c0fbee6f6641-834.jpg 834w,foobar/32eef0247bb077de607da3d1f021d138-1000.jpg 1000w",
+  "src": "foobar/cat-1000.500.jpg",
+  "srcSet": "foobar/cat-1000.500.jpg 500w,foobar/cat-1000.667.jpg 667w,foobar/cat-1000.834.jpg 834w,foobar/cat-1000.1000.jpg 1000w",
   "toString": [Function],
   "width": 500,
 }
@@ -363,23 +363,23 @@ Object {
   "images": Array [
     Object {
       "height": 450,
-      "path": "foobar/82647e9799aa0020dacb0ebeab4886fb-500.jpg",
+      "path": "foobar/cat-1000.500.jpg",
       "width": 500,
     },
     Object {
       "height": 675,
-      "path": "foobar/337b4d5469ae39ad6c7f2f92ac968020-750.jpg",
+      "path": "foobar/cat-1000.750.jpg",
       "width": 750,
     },
     Object {
       "height": 900,
-      "path": "foobar/32eef0247bb077de607da3d1f021d138-1000.jpg",
+      "path": "foobar/cat-1000.1000.jpg",
       "width": 1000,
     },
   ],
   "placeholder": "data:image/jpeg;base64,/9j/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAkACgDASIAAhEBAxEB/8QAHAAAAgEFAQAAAAAAAAAAAAAAAAcGAQIDBAgF/8QALxAAAQMDAgUEAAUFAAAAAAAAAQIDBAAFEQYhBxIiMVEIE0FhFBYjgYIyUnGRsf/EABgBAAMBAQAAAAAAAAAAAAAAAAABAgME/8QAHBEAAwADAAMAAAAAAAAAAAAAAAECAxExBBIi/9oADAMBAAIRAxEAPwDyb36dW5FwaFouMO3wir9VXtLLiE+EpzhR+yRitJXpnkJurDiNVMuwgol1LsIhwj4AwrB+84rpN55iNGdkyHG2mGUlbjitkoSBkk+MUotTeoXRlskqYtcWZeSnYut4ZaJ+lK3P+cV0OZXTNNkXvnpmtElortt+kRJG+6o6VNn+IOR+xqLSPTnq6zyYk+0XW3XNxo5daVlg/wAScg7ecU1dCcedM6jvLNqm2+TZ35J5WXHHUuNFXwCQAU58kYpqszIL5HsS4zvMeUcjqFZPjY96TiKRU1UvaEnozg6+uU1N1a5HU2jq/AsK5goj+9fYj6HfzRTwKARj/tFKMGOFpI1y+TlyPdMSerOHmvrpZJf5s4jLfgR2FuLbb/TbXypJ68AAjbuc1zV+DListqS4gAHKOrI7ftXesu3Q5kN2LLYTIZkJKHWXOpCwfgg7GoBeuEsWRq+DqK1JgQFRlJDrAjAtuJT/AEkJTjCh/rYeKmo3wyVaENwz4aXq+LmyUqTAftr6W/bkgpVzcvN2+NiKbfCPhnL01rVi9OPxwyhtS5Q5+bnfIUAEjA6RzA5P3U2vtqvSwpCAgqldLkltrDnMBsSQcjxk9q2OFluv7GnPb1E6t6QmS57b60gKdbz0kgdvnFJR9B7PRMAUr3GQPkUVT2SnJB2orcgyoT1E5NWuZByCaKKT4BRlRUFFW9ZVbJAz3ooqkADccx7nvRRRQB//2Q==",
-  "src": "foobar/82647e9799aa0020dacb0ebeab4886fb-500.jpg",
-  "srcSet": "foobar/82647e9799aa0020dacb0ebeab4886fb-500.jpg 500w,foobar/337b4d5469ae39ad6c7f2f92ac968020-750.jpg 750w,foobar/32eef0247bb077de607da3d1f021d138-1000.jpg 1000w",
+  "src": "foobar/cat-1000.500.jpg",
+  "srcSet": "foobar/cat-1000.500.jpg 500w,foobar/cat-1000.750.jpg 750w,foobar/cat-1000.1000.jpg 1000w",
   "toString": [Function],
   "width": 500,
 }
@@ -391,23 +391,23 @@ Object {
   "images": Array [
     Object {
       "height": 450,
-      "path": "foobar/82647e9799aa0020dacb0ebeab4886fb-500.jpg",
+      "path": "foobar/cat-1000.500.jpg",
       "width": 500,
     },
     Object {
       "height": 675,
-      "path": "foobar/337b4d5469ae39ad6c7f2f92ac968020-750.jpg",
+      "path": "foobar/cat-1000.750.jpg",
       "width": 750,
     },
     Object {
       "height": 900,
-      "path": "foobar/32eef0247bb077de607da3d1f021d138-1000.jpg",
+      "path": "foobar/cat-1000.1000.jpg",
       "width": 1000,
     },
   ],
   "placeholder": undefined,
-  "src": "foobar/82647e9799aa0020dacb0ebeab4886fb-500.jpg",
-  "srcSet": "foobar/82647e9799aa0020dacb0ebeab4886fb-500.jpg 500w,foobar/337b4d5469ae39ad6c7f2f92ac968020-750.jpg 750w,foobar/32eef0247bb077de607da3d1f021d138-1000.jpg 1000w",
+  "src": "foobar/cat-1000.500.jpg",
+  "srcSet": "foobar/cat-1000.500.jpg 500w,foobar/cat-1000.750.jpg 750w,foobar/cat-1000.1000.jpg 1000w",
   "toString": [Function],
   "width": 500,
 }
