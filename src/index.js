@@ -31,6 +31,7 @@ type Config = {
   adapter: ?Function,
   format: 'png' | 'jpg' | 'jpeg',
   disable: ?boolean,
+  emitFile: ?boolean,
 };
 
 const getOutputAndPublicPath = (fileName:string, {outputPath: configOutputPath, publicPath: configPublicPath}:Config) => {
@@ -94,6 +95,8 @@ module.exports = function loader(content: Buffer) {
 
   const name = (config.name || '[hash]-[width].[ext]').replace(/\[ext\]/ig, ext);
 
+  const emitFile = config.emitFile !== false;
+
   const adapter: Function = config.adapter || require('./adapters/jimp');
   const loaderContext: any = this;
 
@@ -134,7 +137,9 @@ module.exports = function loader(content: Buffer) {
 
     const {outputPath, publicPath} = getOutputAndPublicPath(fileName, config);
 
-    loaderContext.emitFile(outputPath, content);
+    if (emitFile) {
+      loaderContext.emitFile(outputPath, content);
+    }
 
     return loaderCallback(null, 'module.exports = {srcSet:' + publicPath + ',images:[{path:' + publicPath + ',width:100,height:100}],src: ' + publicPath + ',toString:function(){return ' + publicPath + '}};');
   }
@@ -149,7 +154,9 @@ module.exports = function loader(content: Buffer) {
 
     const {outputPath, publicPath} = getOutputAndPublicPath(fileName, config);
 
-    loaderContext.emitFile(outputPath, data);
+    if (emitFile) {
+      loaderContext.emitFile(outputPath, data);
+    }
 
     return {
       src: publicPath + `+${JSON.stringify(` ${width}w`)}`,
