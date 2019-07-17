@@ -108,23 +108,23 @@ Object {
   "images": Array [
     Object {
       "height": 450,
-      "path": "foobar/test/82647e9799aa0020dacb0ebeab4886fb-500x450.jpg",
+      "path": "foobar/test/-500x450.jpg",
       "width": 500,
     },
     Object {
       "height": 675,
-      "path": "foobar/test/337b4d5469ae39ad6c7f2f92ac968020-750x675.jpg",
+      "path": "foobar/test/-750x675.jpg",
       "width": 750,
     },
     Object {
       "height": 900,
-      "path": "foobar/test/32eef0247bb077de607da3d1f021d138-1000x900.jpg",
+      "path": "foobar/test/-1000x900.jpg",
       "width": 1000,
     },
   ],
   "placeholder": undefined,
-  "src": "foobar/test/82647e9799aa0020dacb0ebeab4886fb-500x450.jpg",
-  "srcSet": "foobar/test/82647e9799aa0020dacb0ebeab4886fb-500x450.jpg 500w,foobar/test/337b4d5469ae39ad6c7f2f92ac968020-750x675.jpg 750w,foobar/test/32eef0247bb077de607da3d1f021d138-1000x900.jpg 1000w",
+  "src": "foobar/test/-500x450.jpg",
+  "srcSet": "foobar/test/-500x450.jpg 500w,foobar/test/-750x675.jpg 750w,foobar/test/-1000x900.jpg 1000w",
   "toString": [Function],
   "width": 500,
 }
@@ -377,7 +377,7 @@ Object {
       "width": 1000,
     },
   ],
-  "placeholder": "data:image/jpeg;base64,/9j/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAkACgDASIAAhEBAxEB/8QAHAAAAgEFAQAAAAAAAAAAAAAAAAcGAQIDBAgF/8QALxAAAQMDAgUEAAUFAAAAAAAAAQIDBAAFEQYhBxIiMVEIE0FhFBYjgYIyUnGRsf/EABgBAAMBAQAAAAAAAAAAAAAAAAABAgME/8QAHBEAAwADAAMAAAAAAAAAAAAAAAECAxExBBIi/9oADAMBAAIRAxEAPwDyb36dW5FwaFouMO3wir9VXtLLiE+EpzhR+yRitJXpnkJurDiNVMuwgol1LsIhwj4AwrB+84rpN55iNGdkyHG2mGUlbjitkoSBkk+MUotTeoXRlskqYtcWZeSnYut4ZaJ+lK3P+cV0OZXTNNkXvnpmtElortt+kRJG+6o6VNn+IOR+xqLSPTnq6zyYk+0XW3XNxo5daVlg/wAScg7ecU1dCcedM6jvLNqm2+TZ35J5WXHHUuNFXwCQAU58kYpqszIL5HsS4zvMeUcjqFZPjY96TiKRU1UvaEnozg6+uU1N1a5HU2jq/AsK5goj+9fYj6HfzRTwKARj/tFKMGOFpI1y+TlyPdMSerOHmvrpZJf5s4jLfgR2FuLbb/TbXypJ68AAjbuc1zV+DListqS4gAHKOrI7ftXesu3Q5kN2LLYTIZkJKHWXOpCwfgg7GoBeuEsWRq+DqK1JgQFRlJDrAjAtuJT/AEkJTjCh/rYeKmo3wyVaENwz4aXq+LmyUqTAftr6W/bkgpVzcvN2+NiKbfCPhnL01rVi9OPxwyhtS5Q5+bnfIUAEjA6RzA5P3U2vtqvSwpCAgqldLkltrDnMBsSQcjxk9q2OFluv7GnPb1E6t6QmS57b60gKdbz0kgdvnFJR9B7PRMAUr3GQPkUVT2SnJB2orcgyoT1E5NWuZByCaKKT4BRlRUFFW9ZVbJAz3ooqkADccx7nvRRRQB//2Q==",
+  "placeholder": Any<String>,
   "src": "foobar/cat-1000.500.jpg",
   "srcSet": "foobar/cat-1000.500.jpg 500w,foobar/cat-1000.750.jpg 750w,foobar/cat-1000.1000.jpg 1000w",
   "toString": [Function],

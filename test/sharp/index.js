@@ -20,7 +20,7 @@ test('disable', () => {
 });
 
 test('output should be relative to context', () => {
-  const multi = require('../cat-1000.jpg?name=[path][hash]-[width]x[height].[ext]&context=./');
+  const multi = require('../cat-1000.jpg?name=[path]-[width]x[height].[ext]&context=./');
   expect(multi).toMatchSnapshot();
 });
 
@@ -36,7 +36,9 @@ test('public path should replace global publicPath', () => {
 
 test('with placeholder image', () => {
   const output = require('../cat-1000.jpg?placeholder=true');
-  expect(output).toMatchSnapshot();
+  expect(output).toMatchSnapshot({
+    placeholder: expect.any(String),
+  });
 });
 
 test('output first resized image height & width', () => {
