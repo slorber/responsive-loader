@@ -1,13 +1,11 @@
-// @flow
-
 const sharp = require('sharp');
 
-module.exports = (imagePath: string) => {
+module.exports = (imagePath) => {
   const image = sharp(imagePath);
 
   return {
     metadata: () => image.metadata(),
-    resize: ({width, mime, options}: {width: number, mime: string, options: {background?: number, quality: number}}): Promise<{width: number, height: number, data: Buffer}> =>
+    resize: ({width, mime, options}) =>
       new Promise((resolve, reject) => {
         let resized = image.clone()
           .resize(width, null);

@@ -1,14 +1,12 @@
-// @flow
-
 const jimp = require('jimp');
 
-module.exports = (imagePath: string) => {
-  const readImage: Promise<Object> = jimp.read(imagePath);
+module.exports = (imagePath) => {
+  const readImage = jimp.read(imagePath);
 
   return {
     metadata: () => readImage
       .then(image => ({width: image.bitmap.width, height: image.bitmap.height})),
-    resize: ({width, mime, options}: {width: number, mime: string, options: {background?: number, quality: number}}): Promise<{width: number, height: number, data: Buffer}> =>
+    resize: ({width, mime, options}) =>
       new Promise((resolve, reject) => {
         readImage.then(image => {
           image.clone()

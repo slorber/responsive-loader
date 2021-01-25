@@ -1,25 +1,23 @@
-# responsive-loader
-
-[![Build Status](https://travis-ci.com/endiliey/responsive-loader.svg?branch=master)](https://travis-ci.com/endiliey/responsive-loader)
+# `@rdil/responsive-loader`
 
 A webpack loader for responsive images. Creates multiple images from one source image, and returns a `srcset`. For more information on how to use `srcset`, read [Responsive Images: If you’re just changing resolutions, use srcset.](https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/). Browser support is [pretty good](http://caniuse.com/#search=srcset).
 
 ## Install
 
-> Note: starting with v1.0.0, responsive-loader is only compatible with webpack 2+. For webpack 1 support, use responsive-loader@0.7.0
+> Note: starting with v1.4.0, **`@rdil/responsive-loader`** is only compatible with webpack 4+.
 
 ### With jimp
 
-```
-npm install responsive-loader jimp --save-dev
+```bash
+yarn add @rdil/responsive-loader jimp
 ```
 
 Per default, responsive-loader uses [jimp](https://github.com/oliver-moran/jimp) to transform images. which needs to be installed alongside responsive-loader. Because jimp is written entirely in JavaScript and doesn't have any native dependencies it will work anywhere. The main drawback is that it's pretty slow.
 
 ### With sharp
 
-```
-npm install responsive-loader sharp --save-dev
+```bash
+yarn add responsive-loader sharp
 ```
 
 For [super-charged performance](http://sharp.dimens.io/en/stable/performance/), responsive-loader also works with [sharp](https://github.com/lovell/sharp). It's recommended to use sharp if you have lots of images to transform.
@@ -33,9 +31,9 @@ module.exports = {
     rules: [
       {
         test: /\.(jpe?g|png)$/i,
-        loader: 'responsive-loader',
+        loader: '@rdil/responsive-loader',
         options: {
-+         adapter: require('responsive-loader/sharp')
++         adapter: require('@rdil/responsive-loader/sharp')
         }
       }
     ]
@@ -55,10 +53,10 @@ module.exports = {
     rules: [
       {
         test: /\.(jpe?g|png)$/i,
-        loader: 'responsive-loader',
+        loader: '@rdil/responsive-loader',
         options: {
           // If you want to enable sharp support:
-          // adapter: require('responsive-loader/sharp')
+          // adapter: require('@rdil/responsive-loader/sharp')
         }
       }
     ]
@@ -140,7 +138,6 @@ ReactDOM.render(
 
 - `background: string` — Background fill when converting transparent to opaque images. E.g. `#FFFFFF`
 
-
 ### Examples
 
 Set a default `sizes` array, so you don't have to declare them with each `require`.
@@ -153,7 +150,7 @@ module.exports = {
     rules: [
       {
         test: /\.(jpe?g|png)$/i,
-        loader: 'responsive-loader',
+        loader: '@rdil/responsive-loader',
         options: {
           sizes: [300, 600, 1200, 2000],
           placeholder: true,
@@ -183,7 +180,7 @@ In your webpack config, require your adapter
 ```js
 {
   test: /\.(jpe?g|png)$/i,
-  loader: 'responsive-loader',
+  loader: '@rdil/responsive-loader',
   options: {
     adapter: require('./my-adapter')
     foo: 'bar' // will get passed to adapter.resize({width, mime, options: {foo: 'bar}})

@@ -1,7 +1,5 @@
-// @flow
-
-const path = require('path');
-const loaderUtils = require('loader-utils');
+import path from 'path';
+import loaderUtils from 'loader-utils';
 
 const MIMES = {
   'jpg': 'image/jpeg',
@@ -14,6 +12,7 @@ const EXTS = {
   'image/png': 'png'
 };
 
+/*
 type Config = {
   size: string | number | void,
   sizes: [string | number] | void,
@@ -33,8 +32,12 @@ type Config = {
   disable: ?boolean,
   emitFile: ?boolean,
 };
+*/
 
-const getOutputAndPublicPath = (fileName:string, {outputPath: configOutputPath, publicPath: configPublicPath}:Config) => {
+const getOutputAndPublicPath = (fileName, {
+  outputPath: configOutputPath,
+  publicPath: configPublicPath
+}) => {
   let outputPath = fileName;
 
   if (configOutputPath) {
@@ -65,20 +68,20 @@ const getOutputAndPublicPath = (fileName:string, {outputPath: configOutputPath, 
   };
 };
 
-module.exports = function loader(content: Buffer) {
+module.exports = function loader(content) {
   const loaderCallback = this.async();
   const parsedResourceQuery = this.resourceQuery ? loaderUtils.parseQuery(this.resourceQuery) : {};
-  const config: Config = Object.assign({}, loaderUtils.getOptions(this), parsedResourceQuery);
-  const outputContext: string = config.context || this.rootContext || this.options && this.options.context;
-  const outputPlaceholder: boolean = Boolean(config.placeholder) || false;
-  const placeholderSize: number = parseInt(config.placeholderSize, 10) || 40;
+  const config = Object.assign({}, loaderUtils.getOptions(this), parsedResourceQuery);
+  const outputContext = config.context || this.rootContext || this.options && this.options.context;
+  const outputPlaceholder = Boolean(config.placeholder) || false;
+  const placeholderSize = parseInt(config.placeholderSize, 10) || 40;
   // JPEG compression
-  const quality: number = parseInt(config.quality, 10) || 85;
+  const quality = parseInt(config.quality, 10) || 85;
   // Useful when converting from PNG to JPG
-  const background: string | number | void = config.background;
+  const background = config.background;
   // Specify mimetype to convert to another format
-  let mime: string;
-  let ext: string;
+  let mime;
+  let ext;
   if (config.format) {
     if (!MIMES.hasOwnProperty(config.format)) {
       return loaderCallback(new Error('Format "' + config.format + '" not supported'));
@@ -97,8 +100,8 @@ module.exports = function loader(content: Buffer) {
 
   const emitFile = config.emitFile !== false;
 
-  const adapter: Function = config.adapter || require('./adapters/jimp');
-  const loaderContext: any = this;
+  const adapter = config.adapter || require('./adapters/jimp');
+  const loaderContext = this;
 
   // The config that is passed to the adatpers
   const adapterOptions = Object.assign({}, config, {
@@ -106,9 +109,9 @@ module.exports = function loader(content: Buffer) {
     background
   });
 
-  const min: number | void = config.min !== undefined ? parseInt(config.min, 10) : undefined;
-  const max: number | void = config.max !== undefined ? parseInt(config.max, 10) : undefined;
-  const steps: number = config.steps === undefined ? 4 : parseInt(config.steps, 10);
+  const min = config.min !== undefined ? parseInt(config.min, 10) : undefined;
+  const max = config.max !== undefined ? parseInt(config.max, 10) : undefined;
+  const steps = config.steps === undefined ? 4 : parseInt(config.steps, 10);
 
   let generatedSizes;
   if (typeof min === 'number' && max) {
@@ -166,7 +169,7 @@ module.exports = function loader(content: Buffer) {
     };
   };
 
-  const createPlaceholder = ({data}: {data: Buffer}) => {
+  const createPlaceholder = ({data}) => {
     const placeholder = data.toString('base64');
     return JSON.stringify('data:' + (mime ? mime + ';' : '') + 'base64,' + placeholder);
   };
