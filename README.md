@@ -1,15 +1,15 @@
-# `@rdil/responsive-loader`
+# `responsive-loader-modern`
 
 A webpack loader for responsive images. Creates multiple images from one source image, and returns a `srcset`. For more information on how to use `srcset`, read [Responsive Images: If you’re just changing resolutions, use srcset.](https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/). Browser support is [pretty good](http://caniuse.com/#search=srcset).
 
 ## Install
 
-> Note: starting with v1.4.0, **`@rdil/responsive-loader`** is only compatible with webpack 4+.
+> Note: starting with v1.4.0, **`responsive-loader-modern`** is only compatible with webpack 4+.
 
 ### With jimp
 
 ```bash
-yarn add @rdil/responsive-loader jimp
+yarn add responsive-loader-modern jimp
 ```
 
 Per default, responsive-loader uses [jimp](https://github.com/oliver-moran/jimp) to transform images. which needs to be installed alongside responsive-loader. Because jimp is written entirely in JavaScript and doesn't have any native dependencies it will work anywhere. The main drawback is that it's pretty slow.
@@ -31,9 +31,9 @@ module.exports = {
     rules: [
       {
         test: /\.(jpe?g|png)$/i,
-        loader: '@rdil/responsive-loader',
+        loader: 'responsive-loader-modern',
         options: {
-+         adapter: require('@rdil/responsive-loader/sharp')
++         adapter: require('responsive-loader-modern/sharp')
         }
       }
     ]
@@ -53,10 +53,10 @@ module.exports = {
     rules: [
       {
         test: /\.(jpe?g|png)$/i,
-        loader: '@rdil/responsive-loader',
+        loader: 'responsive-loader-modern',
         options: {
           // If you want to enable sharp support:
-          // adapter: require('@rdil/responsive-loader/sharp')
+          // adapter: require('responsive-loader-modern/sharp')
         }
       }
     ]
@@ -150,7 +150,7 @@ module.exports = {
     rules: [
       {
         test: /\.(jpe?g|png)$/i,
-        loader: '@rdil/responsive-loader',
+        loader: 'responsive-loader-modern',
         options: {
           sizes: [300, 600, 1200, 2000],
           placeholder: true,
@@ -180,7 +180,7 @@ In your webpack config, require your adapter
 ```js
 {
   test: /\.(jpe?g|png)$/i,
-  loader: '@rdil/responsive-loader',
+  loader: 'responsive-loader-modern',
   options: {
     adapter: require('./my-adapter')
     foo: 'bar' // will get passed to adapter.resize({width, mime, options: {foo: 'bar}})
