@@ -1,4 +1,14 @@
-# `responsive-loader-modern`
+# `@docusaurus/responsive-loader` 
+
+Fork used for Docusaurus v2
+
+- @endiliey had an initial fork with some changes for Docusaurus: https://github.com/endiliey/responsive-loader
+- @rdilweb added webpack 5 support: https://github.com/rdilweb/responsive-loader
+- @slorber published this under `@docusaurus` npm org
+
+TODO: can we use the upstream repo? We need to check that the changes of @endiliey were backported and upstream supports Webpack 5
+
+---
 
 A webpack loader for responsive images. Creates multiple images from one source image, and returns a `srcset`. For more information on how to use `srcset`, read [Responsive Images: If you’re just changing resolutions, use srcset.](https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/). Browser support is [pretty good](http://caniuse.com/#search=srcset).
 
