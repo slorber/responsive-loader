@@ -4,12 +4,16 @@ import loaderUtils from 'loader-utils';
 const MIMES = {
   'jpg': 'image/jpeg',
   'jpeg': 'image/jpeg',
-  'png': 'image/png'
+  'png': 'image/png',
+  'webp': 'image/webp',
+  'avif': 'image/avif',
 };
 
 const EXTS = {
   'image/jpeg': 'jpg',
-  'image/png': 'png'
+  'image/png': 'png',
+  'image/webp': 'webp',
+  'image/avif': 'avif',
 };
 
 /*
@@ -84,7 +88,7 @@ module.exports = function loader(content) {
   let ext;
   if (config.format) {
     if (!MIMES.hasOwnProperty(config.format)) {
-      return loaderCallback(new Error('Format "' + config.format + '" not supported'));
+      return loaderCallback(new Error('[Docusaurus responsive loader] Format "' + config.format + '" not supported'));
     }
     mime = MIMES[config.format];
     ext = EXTS[mime];
@@ -92,7 +96,7 @@ module.exports = function loader(content) {
     ext = path.extname(this.resourcePath).replace(/\./, '');
     mime = MIMES[ext];
     if (!mime) {
-      return loaderCallback(new Error('No mime type for file with extension ' + ext + 'supported'));
+      return loaderCallback(new Error('[Docusaurus responsive loader] No mime type for file with extension ' + ext + ' supported'));
     }
   }
 

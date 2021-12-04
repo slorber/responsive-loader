@@ -85,3 +85,8 @@ test('doesn\'t emit file', () => {
   const multi = require('../cat-1000.jpg?emitFile=false&sizes[]=250');
   expect(multi).toMatchSnapshot();
 });
+
+test('webp', () => {
+  const output = require('../avatar.webp');
+  expect(output).toMatchSnapshot();
+})
