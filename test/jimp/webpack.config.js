@@ -11,7 +11,7 @@ module.exports = {
         resourceQuery: /minmax/,
         loader: require.resolve('../../lib/index'),
         options: {
-          name: '[name].[width].[ext]',
+          name: '[name].[hash:hex:7].[width].[ext]',
           min: 100,
           max: 300
         }
@@ -20,7 +20,7 @@ module.exports = {
         test: /\.(png|jpg)$/,
         loader: require.resolve('../../lib/index'),
         options: {
-          name: '[name].[width].[ext]',
+          name: '[name].[hash:hex:7].[width].[ext]',
           sizes: [500, 750, 1000]
         }
       }

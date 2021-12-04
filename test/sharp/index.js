@@ -87,6 +87,6 @@ test('doesn\'t emit file', () => {
 });
 
 test('webp', () => {
-  const output = require('../avatar.webp');
+  const output = require('../avatar.webp?sizes[]=32&sizes[]=64&?sizes[]=200');
   expect(output).toMatchSnapshot();
 })
