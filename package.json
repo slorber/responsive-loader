@@ -1,6 +1,6 @@
 {
   "name": "@docusaurus/responsive-loader",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "A webpack loader for responsive images.",
   "main": "lib/index.js",
   "publishConfig": {
@@ -54,8 +54,8 @@
     "webpack-cli": "^4.9.1"
   },
   "peerDependencies": {
-    "sharp": "*",
-    "jimp": "*"
+    "jimp": "*",
+    "sharp": "*"
   },
   "peerDependenciesMeta": {
     "sharp": {
