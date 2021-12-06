@@ -51,6 +51,7 @@ module.exports = {
 }
 ```
 
+Sharp supports WebP and AVIF formats in addition to JPG and PNG.
 
 ## Usage
 
