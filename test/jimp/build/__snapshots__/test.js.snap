@@ -11,7 +11,6 @@ Object {
   ],
   "src": "foobar/cat-1000.d65e7ea.100.jpg",
   "srcSet": "foobar/cat-1000.d65e7ea.100.jpg",
-  "toString": [Function],
 }
 `;
 
@@ -28,7 +27,6 @@ Object {
   "placeholder": undefined,
   "src": "foobar/cat-1000.cf07671.250.jpg",
   "srcSet": "foobar/cat-1000.cf07671.250.jpg 250w",
-  "toString": [Function],
   "width": 250,
 }
 `;
@@ -51,7 +49,6 @@ Object {
   "placeholder": undefined,
   "src": "foobar/cat-1000.9fca340.500.jpg",
   "srcSet": "foobar/cat-1000.9fca340.500.jpg 500w,foobar/cat-1000.ad4b6c4.1000.jpg 1000w",
-  "toString": [Function],
   "width": 500,
 }
 `;
@@ -69,7 +66,6 @@ Object {
   "placeholder": undefined,
   "src": "foobar/cat-1000.9fca340.500.jpg",
   "srcSet": "foobar/cat-1000.9fca340.500.jpg 500w",
-  "toString": [Function],
   "width": 500,
 }
 `;
@@ -97,7 +93,6 @@ Object {
   "placeholder": undefined,
   "src": "foobar/img/cat-1000.9fca340.500.jpg",
   "srcSet": "foobar/img/cat-1000.9fca340.500.jpg 500w,foobar/img/cat-1000.e0adf4e.750.jpg 750w,foobar/img/cat-1000.ad4b6c4.1000.jpg 1000w",
-  "toString": [Function],
   "width": 500,
 }
 `;
@@ -125,7 +120,6 @@ Object {
   "placeholder": undefined,
   "src": "foobar/test/-500x450.jpg",
   "srcSet": "foobar/test/-500x450.jpg 500w,foobar/test/-750x675.jpg 750w,foobar/test/-1000x900.jpg 1000w",
-  "toString": [Function],
   "width": 500,
 }
 `;
@@ -143,7 +137,6 @@ Object {
   "placeholder": undefined,
   "src": "foobar/cat-1000.b50e60c.100.jpg",
   "srcSet": "foobar/cat-1000.b50e60c.100.jpg 100w",
-  "toString": [Function],
   "width": 100,
 }
 `;
@@ -166,7 +159,6 @@ Object {
   "placeholder": undefined,
   "src": "foobar/cat-1000.b50e60c.100.jpg",
   "srcSet": "foobar/cat-1000.b50e60c.100.jpg 100w,foobar/cat-1000.4f9c9d6.200.jpg 200w",
-  "toString": [Function],
   "width": 100,
 }
 `;
@@ -189,7 +181,6 @@ Object {
   "placeholder": undefined,
   "src": "foobar/cat-transparent.d88e8a0.500.png",
   "srcSet": "foobar/cat-transparent.d88e8a0.500.png 500w,foobar/cat-transparent.2f2f013.513.png 513w",
-  "toString": [Function],
   "width": 500,
 }
 `;
@@ -212,7 +203,6 @@ Object {
   "placeholder": undefined,
   "src": "foobar/cat-transparent.19cbc92.500.jpg",
   "srcSet": "foobar/cat-transparent.19cbc92.500.jpg 500w,foobar/cat-transparent.2cd0b48.513.jpg 513w",
-  "toString": [Function],
   "width": 500,
 }
 `;
@@ -235,7 +225,6 @@ Object {
   "placeholder": undefined,
   "src": "foobar/cat-transparent.19cbc92.500.jpg",
   "srcSet": "foobar/cat-transparent.19cbc92.500.jpg 500w,foobar/cat-transparent.2cd0b48.513.jpg 513w",
-  "toString": [Function],
   "width": 500,
 }
 `;
@@ -263,7 +252,6 @@ Object {
   "placeholder": undefined,
   "src": "public/cat-1000.9fca340.500.jpg",
   "srcSet": "public/cat-1000.9fca340.500.jpg 500w,public/cat-1000.e0adf4e.750.jpg 750w,public/cat-1000.ad4b6c4.1000.jpg 1000w",
-  "toString": [Function],
   "width": 500,
 }
 `;
@@ -281,7 +269,6 @@ Object {
   "placeholder": undefined,
   "src": "foobar/cat-1000.9fca340.500.jpg",
   "srcSet": "foobar/cat-1000.9fca340.500.jpg 500w",
-  "toString": [Function],
   "width": 500,
 }
 `;
@@ -309,7 +296,6 @@ Object {
   "placeholder": undefined,
   "src": "foobar/cat-1000.f0784d9.600.jpg",
   "srcSet": "foobar/cat-1000.f0784d9.600.jpg 600w,foobar/cat-1000.2c580c0.700.jpg 700w,foobar/cat-1000.bbb4217.800.jpg 800w",
-  "toString": [Function],
   "width": 600,
 }
 `;
@@ -342,7 +328,6 @@ Object {
   "placeholder": undefined,
   "src": "foobar/cat-1000.b50e60c.100.jpg",
   "srcSet": "foobar/cat-1000.b50e60c.100.jpg 100w,foobar/cat-1000.cdade20.167.jpg 167w,foobar/cat-1000.d28adc0.234.jpg 234w,foobar/cat-1000.d2285e5.300.jpg 300w",
-  "toString": [Function],
   "width": 100,
 }
 `;
@@ -375,7 +360,6 @@ Object {
   "placeholder": undefined,
   "src": "foobar/cat-1000.9fca340.500.jpg",
   "srcSet": "foobar/cat-1000.9fca340.500.jpg 500w,foobar/cat-1000.13f4f08.667.jpg 667w,foobar/cat-1000.394eeb3.834.jpg 834w,foobar/cat-1000.ad4b6c4.1000.jpg 1000w",
-  "toString": [Function],
   "width": 500,
 }
 `;
@@ -403,7 +387,6 @@ Object {
   "placeholder": Any<String>,
   "src": "foobar/cat-1000.9fca340.500.jpg",
   "srcSet": "foobar/cat-1000.9fca340.500.jpg 500w,foobar/cat-1000.e0adf4e.750.jpg 750w,foobar/cat-1000.ad4b6c4.1000.jpg 1000w",
-  "toString": [Function],
   "width": 500,
 }
 `;
@@ -431,7 +414,6 @@ Object {
   "placeholder": undefined,
   "src": "foobar/cat-1000.9fca340.500.jpg",
   "srcSet": "foobar/cat-1000.9fca340.500.jpg 500w,foobar/cat-1000.e0adf4e.750.jpg 750w,foobar/cat-1000.ad4b6c4.1000.jpg 1000w",
-  "toString": [Function],
   "width": 500,
 }
 `;
