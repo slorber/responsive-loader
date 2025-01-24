@@ -231,7 +231,7 @@ module.exports = function loader(content) {
           'src:' + firstImage.path + ',' +
           'placeholder: ' + placeholder + ',' +
           'width:' + firstImage.width + ',' +
-          'height:' + firstImage.height + ',' +
+          'height:' + firstImage.height +
           '});');
     })
     .catch(err => loaderCallback(err));
