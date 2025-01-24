@@ -223,16 +223,16 @@ module.exports = function loader(content) {
       const images = files.map(f => '{path:' + f.path + ',width:' + f.width + ',height:' + f.height + '}').join(',');
 
       const firstImage = files[0];
-
-      loaderCallback(null, 'module.exports = {' +
+      // prevent toString from injected into {...img} or JSON.stringify
+      // Object.assign is to avoid verbose syntax in Object.create; __proto__ is shorter but deprecated
+      loaderCallback(null, 'module.exports = Object.assign(Object.create({toString(){return this.src;}}),{' +
           'srcSet:' + srcset + ',' +
           'images:[' + images + '],' +
           'src:' + firstImage.path + ',' +
-          'toString:function(){return ' + firstImage.path + '},' +
           'placeholder: ' + placeholder + ',' +
           'width:' + firstImage.width + ',' +
           'height:' + firstImage.height +
-      '};');
+          '});');
     })
     .catch(err => loaderCallback(err));
 };
